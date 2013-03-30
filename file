@@ -1,0 +1,9 @@
+<VirtualHost *>
+        ServerAdmin owner@AOL.com 
+        DocumentRoot /home/webhost/AOL
+        ServerName AOL.com
+        ServerAlias www.AOL.com
+        ErrorLog /var/log/apache2/AOL.com-error_log
+        CustomLog /var/log/apache2/AOL.com-access_log common
+
+</VirtualHost>

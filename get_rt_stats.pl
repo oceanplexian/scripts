@@ -163,7 +163,7 @@ my $email = 'user@site.com';
 my $msg = MIME::Lite->new
 (
 Subject => "HTML email test",
-From    => 'sfo1-ops01@sfo1-ops01.corp.livejournal.org',
+From    => 'user@site.com',
 To      => $email,
 Type    => 'text/html',
 Data    => "<h2>7 Day RT Ticket Report (Week ending $week)</h2>
