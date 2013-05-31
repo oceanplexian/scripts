@@ -1,0 +1,2 @@
+### Extract .tar.gz with PV an pigz
+pv qadb01b-053113.tar.gz | pigz -cd - | tar xf - -C /
